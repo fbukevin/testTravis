@@ -12,7 +12,7 @@ describe("try chai with mocha", function(){
    })
 
    it("lengthOf", function(){
-      assert.lengthOf(foo, 4, 'foo`s value has a length of 3');
+      assert.lengthOf(foo, 3, 'foo`s value has a length of 3');
    })
 
    it("lengthOf in array", function(){

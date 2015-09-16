@@ -1,8 +1,9 @@
 {
   "scripts": {
-    "test": "mocha testMocha.js testChai.js"
+    "test": "mocha testMocha.js testChai.js testSinon.js"
   },
   "dependencies": {
-    "chai": "^3.2.0"
+    "chai": "^3.2.0",
+    "sinon": "^1.16.1"
   }
 }
