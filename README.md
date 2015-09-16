@@ -3,26 +3,29 @@
 
 
 * 至少要有三個檔案:
+
 1. package.json
-```
-{
-  "scripts": {
-    "test": "mocha testMocha.js testChai.js testSinon.js"
-  },
-  "dependencies": {
-    "chai": "^3.2.0"
+
+  ```
+  {
+    "scripts": {
+      "test": "mocha testMocha.js testChai.js testSinon.js"
+    },
+    "dependencies": {
+      "chai": "^3.2.0"
+    }
   }
-}
-```
+  ```
 2. .travis.yml
-```
-language: node_js
-node_js:
-  - "0.10"
-before_install: npm install mocha -g &&
-                npm install chai &&
-                npm install sinon
-```
+
+  ```
+  language: node_js
+  node_js:
+    - "0.10"
+  before_install: npm install mocha -g &&
+                  npm install chai &&
+                  npm install sinon
+  ```
 3. test.js
 
 
